@@ -9,7 +9,7 @@ const Main: FC = () => {
   return (
     <main className="main">
       <div className="grid-container">
-        <section className="right-container bg-blue-500">
+        <section className="right-container">
           <div className="hero-container">
             <div className="wrap-container">
               <div className="font-white font-inter font-weight-700 font-md opacity-60">
