@@ -49,7 +49,7 @@ body {
 .left-container {
   background-color: #ffffff;
   order: 1;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
 }
 
 .logo-container {
@@ -454,7 +454,7 @@ body {
 
   .left-container {
     order: 2;
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .wrap-container {
@@ -498,7 +498,7 @@ body {
 
   .left-container {
     order: 2;
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .wrap-container {
@@ -550,7 +550,7 @@ body {
 
   .left-container {
     order: 2;
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .wrap-container {
