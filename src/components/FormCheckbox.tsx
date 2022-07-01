@@ -17,9 +17,7 @@ const FormCheckbox: FC<IFormCheckbox> = ({ label, name, className }) => {
             <span className="checkmark" />
           </div>
 
-          {label && (
-            <div className="font-inter font-weight-400 font-md line-height-lg">{label}</div>
-          )}
+          <div className="font-inter font-weight-400 font-md line-height-lg">{label}</div>
         </label>
       </div>
     </div>

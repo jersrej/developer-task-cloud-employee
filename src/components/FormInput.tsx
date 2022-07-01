@@ -10,7 +10,6 @@ interface IFormInput {
   type?: string;
 }
 
-// should be any type @TO-DO
 const FormInput: FC<IFormInput> = ({
   label,
   placeholder,
@@ -19,8 +18,6 @@ const FormInput: FC<IFormInput> = ({
   middleText,
   type = 'text'
 }) => {
-  const Comp = 'input';
-
   return (
     <div className="w-full">
       <div>
@@ -34,7 +31,7 @@ const FormInput: FC<IFormInput> = ({
       )}
 
       <div className="flex">
-        <Comp
+        <input
           id={name}
           type={type}
           name={name}
