@@ -12,7 +12,7 @@ const Main: FC = () => {
         <section className="right-container bg-blue-500">
           <div className="hero-container">
             <div className="wrap-container">
-              <div className="font-white font-inter font-weight-700 font-md">
+              <div className="font-white font-inter font-weight-700 font-md opacity-60">
                 What can I do with an account?
               </div>
 

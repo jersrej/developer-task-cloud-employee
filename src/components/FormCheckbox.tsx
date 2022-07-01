@@ -11,7 +11,7 @@ const FormCheckbox: FC<IFormCheckbox> = ({ label, name, className }) => {
   return (
     <div className="w-full">
       <div className="checkbox-container">
-        <label className="text-md flex label-checkbox">
+        <label className="text-md label-checkbox">
           <div>
             <input type="checkbox" name={name} className={clsx(className)} />
             <span className="checkmark" />
