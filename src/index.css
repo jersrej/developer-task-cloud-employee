@@ -468,8 +468,8 @@ body {
   }
 
   .hero-box-container .box-behind {
+    left: -40px;
     top: -64px;
-    left: -72px;
   }
 
   .terms-container {
