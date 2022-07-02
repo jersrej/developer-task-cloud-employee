@@ -59,7 +59,7 @@ const Main: FC = () => {
 
           <div className="wrap-container">
             <div className="logo-container bg-gray my-32">
-              <div className="font-gray-800 font-inter font-weight-700 text-center font-lg">
+              <div className="font-gray-800 font-inter font-weight-400 text-center font-lg text-uppercase">
                 Logo
               </div>
             </div>
@@ -116,7 +116,17 @@ const Main: FC = () => {
               </div>
 
               <div className="col-span-12">
-                <FormCheckbox name="accept" label="Accept our terms and conditions" />
+                <FormCheckbox
+                  name="accept"
+                  label={
+                    <>
+                      Accept our{' '}
+                      <a href="/" className="font-gray-700">
+                        terms and conditions
+                      </a>
+                    </>
+                  }
+                />
               </div>
 
               <div className="col-span-12">

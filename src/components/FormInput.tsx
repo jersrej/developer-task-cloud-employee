@@ -27,7 +27,9 @@ const FormInput: FC<IFormInput> = ({
       </div>
 
       {middleText && (
-        <div className="font-inter font-weight-400 font-md line-height-lg">{middleText}</div>
+        <div className="font-inter font-weight-400 font-md line-height-lg font-gray-600">
+          {middleText}
+        </div>
       )}
 
       <div className="flex">

@@ -1,8 +1,8 @@
-import React, { FC } from 'react';
+import React, { FC, ReactNode } from 'react';
 import clsx, { ClassValue } from 'clsx';
 
 interface IFormCheckbox {
-  label: string;
+  label: string | ReactNode;
   name: string;
   className?: ClassValue;
 }
